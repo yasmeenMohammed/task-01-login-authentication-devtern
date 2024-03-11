@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="frontend.css">
+    <script src="validation.js"></script>
+</head>
+<body align="center" >
+    <div class="container" height="100%" width="100%">
+        <div class="left_side">
+            <img src="https://images.squarespace-cdn.com/content/v1/5c6e2dad94d71a1ea569fca0/1628817152797-IRVCKFO8NNLH6RVYT2BC/2.png" height="600px" width="600px">
+        </div>
+        <div class="right-side">
+            <form class="form" height="100%" width="100%" action="successful.html" id="form" method="post" onsubmit="return validateForm()" data-username:"devtern" data-password:"password">
+                <div class="head">
+                    <h1 >Login</h1>
+                    <h1>Authentication</h1>
+                    <h4 class="lighter-text" >A web development Task by <a href="">Devtern</a> </h4>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div class="box">
+                    <h4 class="lighter-text h4" >Username</h4>
+                    <input id="username" type="text" class="text_pass_box"size=40px>
+                    <h4 class="lighter-text h4">Password</h4>
+                    <input id="password" type="password" class="text_pass_box" size="40px">
+                    <br/> 
+                    <table  >
+                        <tr>
+                            <td>  <input  type="checkbox" name="keep me logged in" value="yes"></td>
+                            <td> <h6 >keep me logged  in</h6></td>
+                            <td>                
+                                <h6 class="forget_pass">
+                                    <a href="">Forget Password</a>
+                                </h6>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" class="button" value="Login">
+                </div>
+                
+            </form> 
+        </div>  
+    </div>
+</body>
+</html>
