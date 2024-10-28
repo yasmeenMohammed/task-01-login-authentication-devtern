@@ -1,8 +1,5 @@
-
 const defaultUsername = "devtern";
 const defaultPassword = "password";
-const defaultUsername2 = "admin";
-const defaultpassword2 = "tiger";
 
 function validateForm() {
   // Get the values from the input fields
